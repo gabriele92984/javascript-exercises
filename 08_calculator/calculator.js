@@ -9,15 +9,19 @@ const subtract = function(num1, num2) {
 };
 
 const sum = function(arr) {
-  var total = 0;
+  let total = 0;
   arr.forEach(function(num) {
     total += num;
   });
   return total;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  let total = 0;
+  arr.forEach(function(num) {
+    total *= num;
+  });
+  return total;
 };
 
 const power = function() {
