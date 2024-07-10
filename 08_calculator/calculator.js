@@ -17,15 +17,16 @@ const sum = function(arr) {
 };
 
 const multiply = function(arr) {
-  let total = 0;
+  let total = 1;
   arr.forEach(function(num) {
     total *= num;
   });
   return total;
 };
 
-const power = function() {
-	
+const power = function(num1, num2) {
+  powerResult = Math.pow(num1, num2);
+  return powerResult;
 };
 
 const factorial = function() {
