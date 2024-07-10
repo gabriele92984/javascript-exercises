@@ -35,7 +35,7 @@ const factorial = function(num) {
   else if (num == 0) 
     return 1;
   else {
-    return (num * factorialize(num - 1));
+    return (num * factorial(num - 1));
   }
 };
 
