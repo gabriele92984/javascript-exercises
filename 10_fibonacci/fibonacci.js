@@ -1,4 +1,7 @@
-const fibonacci = function(num) {
+const fibonacci = function(n) {
+  let num = Number(n);
+  if (num < 0)
+    return 'OOPS';
   if (num <= 1)
     return num;
   return fibonacci(num - 1) +
