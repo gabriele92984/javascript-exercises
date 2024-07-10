@@ -5,12 +5,11 @@ const palindromes = function (string) {
   let reverse = original.split('').reverse().join('');
 
 //compare original vs reversed
-  if (original === reverse) {
+  if (original == reverse) {
     return true;
   } else {
     return false;
   }
 };
-
 // Do not edit below this line
 module.exports = palindromes;
